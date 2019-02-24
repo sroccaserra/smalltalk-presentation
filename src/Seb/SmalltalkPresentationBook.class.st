@@ -69,6 +69,12 @@ SmalltalkPresentationBook class >> notesPage [
 	^ HelpTopic title: title contents:
 (self heading: title),
 
+(self subheading: 'Versioner le code avec Git'),
+'En utilisant Iceberg, inclus dans Pharo 7.
+
+Par exemple, pour cette présentation :
+- ', (self url: 'https://github.com/sroccaserra/smalltalk-presentation'),
+
 (self subheading: 'Particularités'),
 
 'Un bac à sable de luxe : on est emprisonné dans Smalltalk (on ne peut pas utiliser Vim ou les commandes Linux par exemple), en sortir est compliqué, mais c''est une prison de luxe.'
