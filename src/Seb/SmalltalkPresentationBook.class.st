@@ -73,6 +73,7 @@ SmalltalkPresentationBook class >> notesPage [
 'En utilisant Iceberg, inclus dans Pharo 7.
 
 Par exemple, pour cette présentation :
+
 - ', (self url: 'https://github.com/sroccaserra/smalltalk-presentation'),
 
 (self subheading: 'Particularités'),
