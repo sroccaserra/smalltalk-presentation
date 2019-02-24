@@ -69,7 +69,7 @@ SmalltalkPresentationBook class >> notesPage [
 	^ HelpTopic title: title contents:
 (self heading: title),
 
-(self subheading: 'Versioner le code avec Git'),
+(self subheading: 'Versionner le code avec Git'),
 'En utilisant Iceberg, inclus dans Pharo 7.
 
 Par exemple, pour cette présentation :
@@ -98,7 +98,9 @@ SmalltalkPresentationBook class >> syntaxPage [
 	^ HelpTopic title: title contents:
 (self heading: title),
 
-'- ', (self url: 'http://wiki.c2.com/?SmalltalkSyntax'), '
+'"Small talk" = banalité, bavardage.
+
+- ', (self url: 'http://wiki.c2.com/?SmalltalkSyntax'), '
 - ', (self url: 'http://wiki.c2.com/?SmalltalkSyntaxInaPostcard'),
 
 (self subheading: 'Voir le tutoriel Pharo Syntax Tutorial'),
@@ -163,6 +165,7 @@ SmalltalkPresentationBook class >> whyPage [
 
 (self subheading:'Kent Beck'),
 '- TDD
+- eXtreme Programming
 - ', (self url: 'https://www.oreilly.com/library/view/smalltalk-best-practice/9780132852098/'), '
 
 ', (self doItFrom: 'TestCase browse'),
